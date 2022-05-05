@@ -4,7 +4,11 @@ This tool is intended to collect and calculate the financial indicators of Russi
 
 # How does it work?
 
-You can just import `crawler.py` module and use `get_org_data()` function that will return organization financial data details.
+Install dependencies:
+
+`pip install -r requirements.txt`
+
+Then you can just import `crawler.py` module and use `get_org_data()` function that will return organization financial data details.
 
 ```python
 import crawler
