@@ -6,6 +6,7 @@ __pycache__/
 #Stuff
 .DS_Store
 pytest_run.sh
+settings.json
 
 # C extensions
 *.so
