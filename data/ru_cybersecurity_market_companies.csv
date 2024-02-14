@@ -1,0 +1,226 @@
+,org_name,legal_name,org_type,tags,inn
+0,Softline,АО СофтЛайн Трейд,"integrator, mssp","idm_iam, sgrc",7736227885
+1,Softline,ООО СОФТЛАЙН ИНТЕРНЕТ ТРЕЙД,"integrator, mssp",,7736542069
+2,Kaspersky,АО ЛАБОРАТОРИЯ КАСПЕРСКОГО,vendor,"ips_ids_nta_ndr, vpn, mdm, epp, edr, dpi, ddos, swg, iot, cloud_security, email_security, critical_infra_security, digital_forensics, irp_soar, threat_intelligence, threat_hunting, security_awareness, sandbox, os, mobile_security, atm_security, ics_security, ddos_security, anti_apt",7713140469
+3,Kaspersky,ООО ГРУППА КОМПАНИЙ КАСПЕРСКОГО,vendor,"ips_ids_nta_ndr, vpn, mdm, epp, edr, dpi, ddos, swg, iot, cloud_security, email_security, critical_infra_security, digital_forensics, irp_soar, threat_intelligence, threat_hunting, security_awareness, sandbox, os, mobile_security, atm_security, ics_security, ddos_security, anti_apt",7713603558
+4,Kaspersky,ООО НАУЧНО-ПРОИЗВОДСТВЕННОЕ ОБЪЕДИНЕНИЕ АДАПТИВНЫЕ ПРОМЫШЛЕННЫЕ ТЕХНОЛОГИИ,vendor,"ips_ids_nta_ndr, vpn, mdm, epp, edr, dpi, ddos, swg, iot, cloud_security, email_security, critical_infra_security, digital_forensics, irp_soar, threat_intelligence, threat_hunting, security_awareness, sandbox, os, mobile_security, atm_security, ics_security, ddos_security, anti_apt",7724443440
+5,Kaspersky,ООО Модель защиты,vendor,"ips_ids_nta_ndr, vpn, mdm, epp, edr, dpi, ddos, swg, iot, cloud_security, email_security, critical_infra_security, digital_forensics, irp_soar, threat_intelligence, threat_hunting, security_awareness, sandbox, os, mobile_security, atm_security, ics_security, ddos_security, anti_apt",7743292170
+6,Инфосистемы Джет,АО ИНФОСИСТЕМЫ ДЖЕТ,"integrator, mssp",,7729058675
+7,Rubytech,ООО РУБИТЕХ,integrator,,7702404085
+8,Rubytech,ООО РУБИТЕХ ИНТЕГРАЦИЯ,integrator,,9717097810
+9,СКБ Контур,АО ПФ СКБ Контур,vendor,digital_signature,6663003127
+10,НЦИ,ООО НЦИ,vendor,"idm_iam, sgrc",7703810139
+11,ICL,ОАО КПО ВС,"mssp, integrator",,1660014361
+12,ICL,ООО ДжиДиСи Сервисез,"mssp, integrator",,1660146230
+13,ICL,ООО НПО ВС,"mssp, integrator",,1660093042
+14,ICL,ООО АйСиЭл Техно,"mssp, integrator",,1624014670
+15,ICL,ООО АйСиЭл СТ,"mssp, integrator",,1615012203
+16,ICL,ООО АйСиЭл Софт,"mssp, integrator",,1624016042
+17,ICL,ООО АйСиЭл РС,"mssp, integrator",,1655287540
+18,ICL,ООО АйСиЭл Сервисез,"mssp, integrator",,7728897484
+19,ICL,ООО АйСиЭл СВ,"mssp, integrator",,2543145299
+20,BI.ZONE,ООО БИЗОН,"mssp, vendor","threat_intelligence, antifraud, sd_wan, digital_forensics, critical_infra_security, waf, security_awareness, sgrc, pentest, firewall_utm_ngfw, cloud_security",9701036178
+21,Газинформ сервис,ООО Газинформсервис,"integrator, vendor","idm_iam, siem, vulnerability_management, pam, unauthorised_access, crypto, digital_signature, physical_security, database_security, tech_compliance",7838017968
+22,АМТ групп,АО АМТ-ГРУП,"mssp, integrator",,7703025499
+23,Русбиттех,АО НПО РусБИТех,vendor,"idm_iam, os, unauthorized_access, backup, virtualization_security",7726604816
+24,Русбиттех,ООО РУСБИТЕХ-АСТРА,vendor,"idm_iam, os, unauthorized_access, backup, virtualization_security",7726388700
+25,Positive Technologies,АО Группа Позитив,vendor,"siem, asset_management, vulnerability_management, application_security, threat_intelligence, ics_security, sandbox, ips_ids_nta_ndr, pentest",9718077239
+26,Positive Technologies,АО Позитив Текнолоджиз,vendor,"siem, asset_management, vulnerability_management, application_security, threat_intelligence, ics_security, sandbox, ips_ids_nta_ndr, pentest",7718668887
+27,Positive Technologies,АО Позитивные Технологии,vendor,"siem, asset_management, vulnerability_management, application_security, threat_intelligence, ics_security, sandbox, ips_ids_nta_ndr, pentest",7718880121
+28,Eltex,ООО Предприятие ЭЛТЕКС,vendor,"firewall_utm_ngfw, ips_ids_nta_ndr, vpn",5410108110
+29,Infotecs,АО ИнфоТеКС,vendor,"ips_ids_nta_ndr, unauthorized_access, vpn, firewall_utm_ngfw, crypto",7710013769
+30,РТЛабс,АО РТ Лабс,vendor,biometric_auth,5047053920
+31,Информзащита,АО НИП ИНФОРМЗАЩИТА,integrator,,7702148410
+32,Код безопасности,ООО Код Безопасности,vendor,"vpn, unauthorized_access, ips_ids_nta_ndr, firewall_utm_ngfw, virtualization_security",7715719244
+33,УЦСБ,ООО УЦСБ,"integrator, mssp, vendor",pentest,6672235068
+34,Ростелеком Solar,ООО СОЛАР СЕКЬЮРИТИ,vendor,"ics_security, idm_iam, firewall_utm_ngfw, epp, dpi, swg, critical_infra_security, digital_forensics, ueba, security_awareness, threat_hunting, vulnerability_management, idm_iam, biometric_auth, sdlc",7718099790
+35,Sbercloud,ООО Облачные технологии,vendor,"waf, database_security, container_security",7736279160
+36,ЦРТ,ООО ЦРТ,vendor,biometric_auth,7805093681
+37,ЦРТ,ООО ЦРТ-инновации,vendor,biometric_auth,7839438486
+38,Angara,ООО АТ ГРУП,integrator,,7730016670
+39,Фактор-ТС,ООО Фактор-ТС,vendor,"vpn, firewall_utm_ngfw, digital_signature, ips_ids_nta_ndr, crypto",7716032944
+40,Крипто Про,ООО Крипто-ПРО,vendor,"digital_signature, pki, vpn, crypto, idm_iam",7717107991
+41,АтласКарт,АО АТЛАС-КАРТ,vendor,"crypto, pki",7714313724
+42,Финтех,АО ФИНТЕХ,vendor,"biometric_auth, os, physical_security",7733022819
+43,Открытая мобильная платформа,ООО ОТКРЫТАЯ МОБИЛЬНАЯ ПЛАТФОРМА,vendor,os,1615012605
+44,ИВК,АО Информационная внедренческая компания,vendor,"vpn, firewall_utm_ngfw, ips_ids_nta_ndr, os",7702157005
+45,NeuroDAT SIEM,ООО Центр безопасности информации,vendor,siem,5054004240
+46,@страл безопасность,АО Калуга Астрал,"integrator, mssp","critical_infra_security, pentest",4029017981
+47,Элвис-плюс,АО ЭЛВИС-ПЛЮС,"vendor, integrator","crypto, firewall_utm_ngfw, ips_ids_nta_ndr, vpn, os",7735003794
+48,Acronis,ООО АКРОНИС,vendor,"dlp, backup, email_security",7715532020
+49,InfoWatch,АО ИнфоВотч,vendor,"ics_security, dlp, firewall_utm_ngfw , database_security, ueba",7713515534
+50,С-Терра,ООО С-Терра СиЭсПи,vendor,"firewall_utm_ngfw, vpn",7735607443
+51,Cross technologies,АО КРОСС ТЕХНОЛОДЖИС,integrator,,7707756806
+52,SWEMEL,ЗАО МВП Свемел,"vendor, integrator","os, physical_security",7709009454
+53,SWEMEL,ОАО Протон+Сервис,"vendor, integrator","os, physical_security",7722014421
+54,SWEMEL,ОАО Синклит,"vendor, integrator","os, physical_security",7709359561
+55,Актив,АО Актив-cофт,"vendor, integrator","digital_signature, auth_devices",7729361030
+56,DrWeb,ООО Доктор Веб,vendor,"epp, swg, email_security, mobile_security, atm_security",7714533600
+57,СёрчИнформ,ООО Серчинформ,vendor,"dlp, siem",7704306397
+58,Информзащита Сервис,ООО ИНФОРМЗАЩИТА-СЕРВИС,mssp,,7713401671
+59,Digital design,ЗАО ДИДЖИТАЛ ДИЗАЙН,integrator,"idm_iam, critical_infra_security, ics_security, mobile_security",7803009412
+60,Митигатор. БИФИТ,АО БИФИТ,vendor,ddos,7719617469
+61,VisionLabs,ООО Вижнлабс,vendor,biometric_auth,7701954054
+62,Национальный инновационный центр,АО НИЦ,"vendor, integrator","siem, pam, mdm, ips_ids_nta_ndr, firewall_utm_ngfw",7704599880
+63,Амикон,ООО АМИКОН,vendor,"firewall_utm_ngfw, ips_ids_nta_ndr, vpn",7701025060
+64,Group-IB,ООО ГРУППА АЙБИ,vendor,"ips_ids_nta_ndr, threat_intelligence, digital_forensics, antifraud, pentest",7723790843
+65,Group-IB,ООО ГРУППА АЙБИ ТДС,vendor,"ips_ids_nta_ndr, threat_intelligence, digital_forensics, antifraud, pentest",7723413429
+66,Group-IB,ООО ГРУППА АЙБИ СЕЙЛЗ,vendor,"ips_ids_nta_ndr, threat_intelligence, digital_forensics, antifraud, pentest",7723450420
+67,Group-IB,ООО ГРУППА АЙБИ СЕРВИС,vendor,"ips_ids_nta_ndr, threat_intelligence, digital_forensics, antifraud, pentest",7723413411
+68,Конфидент,ООО Конфидент,vendor,"firewall_utm_ngfw, vpn, ips_ids_nta_ndr, unautorized_access, asset_management",7811072513
+69,Конфидент,ООО КОНФИДЕНТ СК,vendor,"firewall_utm_ngfw, vpn, ips_ids_nta_ndr, unautorized_access, asset_management",7811754107
+70,Инфолэнд,ООО Инфолэнд,"vendor, integrator",virtualization_security,7701629463
+71,Концерн ВНИИНС,АО ВНИИНС,vendor,"os, ips_ids_nta_ndr, unauthorised_security, pki, crypto, firewall_utm_ngfw",7727062154
+72,Концерн ВНИИНС,АО КОНЦЕРН ВНИИНС ,vendor,"os, ips_ids_nta_ndr, unauthorised_security, pki, crypto, firewall_utm_ngfw",7727133398
+73,Концерт Гранит,АО Концерн ГРАНИТ,vendor,"crypto, physical_security",5003056699
+74,ЦПС,АО НИИ ЦПС,"vendor, integrator","unauthorized_access, ips_ids_nta_ndr, security_awareness",6904008332
+75,Компания РНТ,АО РНТ,vendor,"unauthorized_access, physical_security",7720010693
+76,ID point,АО Инфотекс Интернет Траст,vendor,digital_signature,7743020560
+77,Гарда,ООО Гарда Технологии,vendor,"ips_ids_nta_ndr, database_security, ddos, dlp, ips_ids_nta_ndr, dag, irp_soar,",5260443081
+78,R-Vision,ООО Р-ВИЖН,vendor,"irp_soar, asset_management, sgrc, threat_intelligence, deception, critical_infra_security, vulnerability_management, siem",7723390901
+79,Business Guardian,ООО ИТЕРАНЕТ,vendor,dlp,7704199755
+80,ЭОС,ООО ЭОС ПВ,vendor,digital_signature,7704210053
+81,ЭОС,ООО ЭОС СОФТ,vendor,digital_signature,7709651527
+82,СКДПУ НТ,ООО АйТи БАСТИОН,vendor,"pam, firewall_utm_ngfw",7717789462
+83,СКДПУ НТ,ООО АЙТИ БАСТИОН СЕРВИС,vendor,"pam, firewall_utm_ngfw",9717067598
+84,Ngenix,ООО ССТ,vendor,"ddos, waf, dns_security",7733546298
+85,UserGate,ООО Юзергейт,vendor,"firewall_utm_ngfw, ips_ids_nta_ndr",5408308256
+86,Qrator Labs,ООО Эйч-Эль-Эль,vendor,"ddos, waf",7704773923
+87,basealt,ООО Базальт СПО,vendor,os,7714350892
+88,Тионикс,ООО ТИОНИКС,vendor,virtualization_security,7731316059
+89,Эшелон,АО НПО Эшелон,vendor,"siem, application_security, asset_management, vulnerability_management, firewall_utm_ngfw",7718676447
+90,Киберпротект (Кибер DLP Защита),ООО Киберпротект,vendor,dlp,9715274292
+91,ЦБИ Сервис,АО ЦБИ-сервис,"integrator, vendor","asset_management, crypto, physical_security",5054009168
+92,Необит,ООО Необит,vendor,"sdlc, sandbox, firewall_utm_ngfw, crypto",7804360292
+93,Security Vision,ООО ИНТЕЛЛЕКТУАЛЬНАЯ БЕЗОПАСНОСТЬ,vendor,"irp_soar, asset_management, sgrc, threat_intelligence, deception, critical_infra_security, vulnerability_management, siem",7719435412
+94,Avanpost,ООО Аванпост,vendor,"idm_iam, pki",7722778473
+95,Валидата,ООО Валидата,vendor,"digital_signature, pki",7702250685
+96,СОВИнтегра,ООО СОВИНТЕГРА,integrator,,7701079121
+97,CorpSoft,АО Корп Софт,integrator,,7743813810
+98,Numa tech,ООО НУМАТЕХ,vendor,"firewall_utm_ngfw, ips_ids_nta_ndr, vpn, unauthorised_access, virtualization_security",7810727823
+99,ANCUD,ООО Фирма АНКАД,vendor,"crypto, unauthorized_access",7735081665
+100,ESMART,ООО Лоджик Телеком,vendor,auth_devices,7735564052
+101,Multisoft,ООО МультиСофт Системз,vendor,auth_devices,7707166518
+102,Multisoft,ООО НТЦ Альфа-Проект,vendor,auth_devices,7707546559
+103,Angara MSSP,ООО Ангара Ассистанс,mssp,,7730208170
+104,ТСС,Общество с ограниченной ответственностью ТСС,vendor,"ips_ids_nta_ndr, firewall_utm_ngfw, vpn",7719723403
+105,RedCheck,АО АЛТЭКС-СОФТ,vendor,"asset_management, vulnerability_management",7729587936
+106,Zecurion,ООО Зекурион Рус,vendor,"dlp, swg, dcap",7722758597
+107,Zecurion,АО СЕКЬЮРИТ,vendor,"dlp, swg, dcap",7722253395
+108,Innoventica,ООО Иновентика Технолоджес,vendor,"ddos, ips_ids_nta_ndr",7701912745
+109,Innoventica,АО КДИ,vendor,"ddos, ips_ids_nta_ndr",7701891090
+110,Wallarm,ООО ОНСЕК,"vendor, integrator",waf,7706792752
+111,Swordfish security,ООО СВОРДФИШ СЕКЬЮРИТИ,integrator,sdlc,7842496093
+112,Праймтек,ООО ПРАЙМТЕК,vendor,"epp, ics_security, siem, firewall_utm_ngfw",7729408873
+113,Центр специальной системотехники,ООО ЦСС,vendor,"siem, ips_ids_nta_ndr, crypto",7715332423
+114,Центр специальной системотехники,ООО ЦСС-Сервис,vendor,"siem, ips_ids_nta_ndr, crypto",7724314540
+115,VAS Experts,ООО ВАС Экспертс,vendor,"ips_ids_nta_ndr, firewall_utm_ngfw, dlp",7841476577
+116,Перспективный мониторинг,АО ПМ,mssp,,7714706154
+117,Смартс Кванттелеком,ООО Смартс-Кванттелеком,vendor,"crypto, quant_crypto",7802875514
+118,VolgaBlob (SmartMonitor),ООО ВолгаБлоб,"vendor, integrator",log_management,3442090398
+119,Falcongaze,ООО Фалконгейз,vendor,dlp,7706738353
+120,Ксб-софт,ООО КСБ-СОФТ,integrator,,2130146389
+121,Solidlab,ООО СолидЛаб,,,7714855830
+122,SafeInspect,ООО НТБ,vendor,"pam, idm_iam",7728691444
+123,Digital Security,ООО Диджитал Комплаенс,"mssp, integrator",,7802524178
+124,ОКБ САПР,ЗАО ОКБ САПР,vendor,"unauthorised_access, virtualization_security, asset_management, firewall_utm_ngfw, vpn",7725739137
+125,Solidwall,ООО СолидСофт,vendor,waf,7714944046
+126,Стахановец,ООО Стахановец,vendor,dlp,7725836290
+127,Учебный центр «Информзащита»,АНО ДПО Учебный центр Информзащита,mssp,,7704190833
+128,Crocotime,ООО Инфомаксимум,vendor,dlp,1328909857
+129,Фобос,ООО НТЦ Фобос-НТ,"vendor, integrator",ips_ids_nta_ndr,5751030791
+130,safephone,ООО НИИ СОКБ,vendor,mdm,7733554034
+131,Оксиджен софтвер,ООО Оксиджен Софтвер,"vendor, integrator",digital_forensic,7709458650
+132,Safetech,ООО СэйфТек,vendor,digital_signature,7719769327
+133,Safetech,ООО СЭЙФТЕК ЛАБ,vendor,digital_signature,7734429050
+134,AVSOFT ATHENA,Общество с ограниченной ответственностью АВ Софт,vendor,"anti_apt, iot_security, sandbox, epp",7729662615
+135,Ideco,ООО Айдеко,vendor,"firewall_utm_ngfw, ips_ids_nta_ndr, vpn",6670208848
+136,BIOSmart,ООО Прософт-Биометрикс,vendor,biometric_auth,6658396024
+137,BIOSmart,ООО НИЦ ПРОСОФТ-СИСТЕМЫ,vendor,biometric_auth,6658410039
+138,Цифровые технологии,ООО Цифровые технологии,vendor,crypto,1215039585
+139,Sign Me,ООО СМ,vendor,digital_signature,7719795020
+140,DataArmor,Общество с ограниченной ответственностью Армор,vendor,database_security,1655293180
+141,Indeed,ООО Индид,vendor,"idm, pam, digital_signature",7801540219
+142,Indeed,ООО ИНДИД ТЕХНИКА,vendor,"idm, pam, digital_signature",7804618752
+143,Carbon soft,ООО Карбон Софт,vendor,ips_ids_nta_ndr,6670395926
+144,Docshell,ООО АЙТИ НОВАЦИЯ,vendor,"sgrc, irp_soar, security_awareness, asset_management",2308255485
+145,Инфокрипт,ООО Фирма ИнфоКрипт,vendor,"unauthorized_access, crypto, pki, digital_signature",7729072937
+146,Сигнал-Ком,АО СИГНАЛ-КОМ,vendor,"digital_signature, pki, digital_signature",7714028893
+147,Сигнал-Ком,ООО СИГНАЛ-КОМ,vendor,"digital_signature, pki, digital_signature",7723751330
+148,Документальные системы,АО ДОКУМЕНТАЛЬНЫЕ СИСТЕМЫ,integrator,pentest,7727114395
+149,Elcomsoft,ООО Элкомсофт,vendor,digital_forensic,7701115563
+150,Stormwall,ООО Сторм Системс,"vendor, waf",ddos,2304064779
+151,Everytag,ООО ЭВРИТЕГ,vendor,dlp,7708680740
+152,Комплексные системы,ООО КОМПЛЕКСНЫЕ СИСТЕМЫ,,,7733337985
+153,Кейсистемс,ООО НПЦ Кейсистемс-Безопасность.,vendor,"idm_iam, sgrc",2130104117
+154,Identity Blitz,ООО РЕАК СОФТ,vendor,idm_iam,7715434658
+155,Perimetrix SafeUse,ООО Периметрикс,vendor,"dcap, dlp",7729585417
+156,АДМ Системы,ООО АДМ СИСТЕМЫ,,ics_security,7804514697
+157,SkyDNS,ООО СкайДНС,,dns_security,6670326961
+158,Cybertonica,ООО КИБЕРТОНИКА,vendor,antifraud,7725293981
+159,BPS,ООО “КОМПАНИЯ БПС”,integrator,,7743056888
+160,Кристалл научно производственная группа,ООО НПФ Кристалл,integrator,,5837005243
+161,Фрактел,ООО НПО ФРАКТЕЛ,vendor,"firewall_utm_ngfw, ips_ids_nta_ndr, vpn",7802334258
+162,Антифишинг,ООО Антифишинг,vendor,security_awareness,6950191442
+163,Интернет контроль сервер,ООО А-РеАл Консалтинг,vendor,"firewall_utm_ngfw, vpn",7606047112
+164,Горизонт-ВС,ООО ИЦ Баррикады,vendor,virtualization_security,7733239949
+165,eplat4m,ООО КИТ,vendor,sgrc,6674301774
+166,Smart-Soft Traffic Inspector,ООО Смарт-Софт,vendor,"firewall_utm_ngfw, ips_ids_nta_ndr, vpn",5022032904
+167,Security Capsule SIEM,ООО Инновационные Технологии в Бизнесе,vendor,"siem, os",7838432428
+168,Phishman,ООО ФИШМАН,vendor,security_awareness,9715266823
+169,RuSIEM,ООО Русием,vendor,siem,7731317045
+170,Редсофт,ООО Редсофт,vendor,os,7734690304
+171,ARMLock,ООО Вэлл-Сервис,vendor,unauthorized_access,7802467177
+172,Рубинтех,ООО РУБИНТЕХ,vendor,unauthorized_access,7715787910
+173,1IDM,ООО ОДИН АЙДИЭМ,vendor,idm_iam,7718292747
+174,ASP Labs,ООО АСП Лабс,"vendor, integrator","ics_security, firewall_utm_ngfw",7706421204
+175,Криптоком,ООО Криптоком,vendor,crypto,7705300239
+176,IBS,АО ИБС ИТ Услуги,integrator,,7713444361
+177,OMS Solution,АО ИБС ИТ Услуги,vendor,"irp, idm_iam",7728874053
+178,Телеком-интеграция,ООО Телеком Интеграция,integrator,,7731642944
+179,Сонда Про,ООО Сонда Про,vendor,"biometric_auth, physical_security",7415077532
+180,Handybackup,ООО Новософт развитие,vendor,backup,5408189062
+181,Altel,ООО АльтЭль,vendor,"vpn, ips_ids_nta_ndr, firewall_utm_ngfw",7810081931
+182,Altel,ООО АльтЭль Лео,vendor,"vpn, ips_ids_nta_ndr, firewall_utm_ngfw",7731387194
+183,Microolap,ООО Микроолап Текнолоджис,vendor,ips_ids_nta_ndr,5031068022
+184,Mirada IDS,ООО Кодмастер,vendor,"ips_ids_nta_ndr, firewall_utm_ngfw, vpn",9717002015
+185,Nemesida,ООО ПентестИТ,vendor,waf,7710958665
+186,NextSTage IRP,ООО Инностейдж,"integrator, mssp, vendor","irp_soar, security_awareness, sgrc, critical_infra_security",1655428600
+187,Пангео Радар,ООО Пангео Радар,vendor,"siem, vulnerability_management, asset_management, irp_soar",7703459150
+188,Cezurity,ООО Цезурити,vendor,"siem, vulnerability_management, asset_management, irp_soar",7802750681
+189,NGRSoftlab,ООО ЭнДжиАр софтлаб,vendor,"irp_soar, pam, ueba",7730252130
+190,Bitcop,ООО БИТКОП,vendor,dlp,7604261858
+191,FBK CS Cybersecurity,ООО ЭфБиКей Сайберсекьюрити,integrator,pentest,7701343560
+192,Auth.as,ООО АРСИЭНТЕК,vendor,idm_iam,7731453922
+193,Auth.as,ООО АРСИЭНТЕК АРПИСИЭМ,vendor,idm_iam,9715235705
+194,Гроссмейстер,ООО Гроссмейстер,vendor,crypto,7718122833
+195,Inform systems group,ООО ГК Информ-Системы,"vendor, integrator","os, crypto",2314024711
+196,Атлансис,ООО ПРОГРАММНЫЕ СИСТЕМЫ АТЛАНСИС,vendor,"backup, dcap, cloud_security",6952021686
+197,Makves,ООО МАКВЕС ГРУПП,vendor,"irp_soar, dcap, idm_iam",9717082927
+198,Alladin-RD,АО АЛАДДИН Р.Д.,vendor,"digital_signature, database_security, dag, auth_devices",7719165935
+199,Орлан,АКЦИОНЕРНОЕ ОБЩЕСТВО ИННОВАЦИИ БЕЗОПАСНОСТИ,vendor,dcap,7734448222
+200,workspad,ООО РуПост,vendor,mdm,7726472944
+201,Nano antivirus,ООО НАНО Секьюрити,vendor,epp,3255508325
+202,NetPolice.ru,ООО НетПолис,vendor,firewall_utm_ngfw,7702850690
+203,СВЗ (системы виртуальной защиты),ООО СВЗ,mssp,,7704831068
+204,IQR,ООО Интеллектуальный резерв,vendor,backup,7731457797
+205,Surf secure,ООО ПАЙНАП,vendor,swg,7725298443
+206,Масштаб научно-исследовательский институт,АО НИИ Масштаб,,"firewall_utm_ngfw, ips_ids_nta_ndr, vpn",7802777108
+207,ФГУП НПП Гамма,ФГУП НПП Гамма,vendor,"physical_security, ips_ids_nta_ndr, unauthorized_access",7728044373
+208,Stingray,ООО Стингрей Технолоджиз,vendor,"mobile_security, sdlc",9731060805
+209,Staffcop,ООО Атом Безопасность,vendor,dlp,5408298569
+210,Space bit,ООО СПЕЙСБИТ,vendor,"idm_iam, asset_management, tech_compliance",9702028356
+211,Clever control,ООО АВРОРА,vendor,dlp,4345501044
+212,ADV Soft,ИП АЛФЕРЬЕВ ДМИТРИЙ ВИКТОРОВИЧ,vendor,"dlp, mail_security",615414710857
+213,Lan agent,ООО НЕТВОРК ПРОФИ,vendor,dlp,7203164952
+214,Digital forensics center,ООО ЦЕНТР ЦИФРОВОЙ КРИМИНАЛИСТИКИ И ПРАВА,integrator,,9701098093
+215,ИСП РАН,ИСП РАН,vendor,,7709006125
+216,Xello,ООО Кселло,vendor,deception,7708344509
+217,Business Ecosystems,ООО Бизнес Экосистемс,vendor,idm_iam,9705007643
+218,Teddy,ООО Платформа Матрица,vendor,idm_iam,7701967590
+219,Multifactor,ООО Мультифактор,vendor,idm_iam,9725026066
+220,CIS Crypto,АО СИС крипто,vendor,crypto,7728218020
+221,Институт сетевых технологий,ЗАО ИСТ,vendor,"crypto, firewall_utm_ngfw",7825347630
+222,МЦСТ,АО МЦСТ,vendor,os,7736053886
+223,ЦНИИ ЭИСУ,АО ЦНИИ ЭИСУ,vendor,"os, unauthorized_access, crypto",7703824477
+224,СПИИРАН,СПИИРАН,vendor,unauthorized_access,7801003920

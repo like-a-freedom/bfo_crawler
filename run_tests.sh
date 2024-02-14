@@ -1,0 +1,1 @@
+python -m pytest -rP --cov-report xml:cov.xml  --cov=. ./tests/
