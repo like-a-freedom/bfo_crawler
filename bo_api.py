@@ -1,8 +1,6 @@
 import httpx
 
-USER_AGENT: str = (
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
-)
+USER_AGENT: str = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
 HEADERS = {"user-agent": USER_AGENT}
 
 client = httpx.Client(base_url="https://bo.nalog.ru", headers=HEADERS, timeout=60)
@@ -42,3 +40,4 @@ def get_bo_statistics():
         return response.json()
     except httpx.HTTPStatusError as e:
         raise e
+

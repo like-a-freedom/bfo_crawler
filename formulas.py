@@ -8,7 +8,9 @@
 Рентабельность собственного капитала = Чистая прибыль х (365/ Количество дней в периоде): [(Собственный капитал на начало периода + Собственный капитал на конец периода)/2]
 """
 
-represent = lambda number: round(100 * number, 1)
+
+def represent(number: int | float) -> int | float:
+    return round(100 * number, 1)
 
 
 def calculate_revenue_growth_yoy(current_year: int, previous_year: int) -> float | None:
