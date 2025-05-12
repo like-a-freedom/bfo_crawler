@@ -25,13 +25,13 @@ class TestFormulas:
         current_year = random.randint(0, 10)
         previous_year = 0 if current_year > 0 else random.randint(0, 10)
         result = formulas.calculate_revenue_growth_yoy(current_year, previous_year)
-        assert result == None
+        assert result is None
 
     def test_calculate_revenue_growth_yoy_zero(self):
         current_year = 0
         previous_year = 0
         result = formulas.calculate_revenue_growth_yoy(current_year, previous_year)
-        assert result == None
+        assert result is None
 
     def test_calculate_profit_margin(self):
         net_income = 1691611
@@ -43,13 +43,13 @@ class TestFormulas:
         net_income = random.randint(0, 10)
         revenue = 0 if net_income > 0 else random.randint(0, 10)
         result = formulas.calculate_profit_margin(net_income, revenue)
-        assert result == None
+        assert result is None
 
     def test_calculate_profit_margin_zero(self):
         net_income = 0
         revenue = 0
         result = formulas.calculate_profit_margin(net_income, revenue)
-        assert result == None
+        assert result is None
 
     def test_calculate_ebit_margin(self):
         income_before_taxes = 2275033
@@ -61,13 +61,13 @@ class TestFormulas:
         income_before_taxes = random.randint(0, 10)
         revenue = 0 if income_before_taxes > 0 else random.randint(0, 10)
         result = formulas.calculate_ebit_margin(income_before_taxes, revenue)
-        assert result == None
+        assert result is None
 
     def test_calculate_ebit_margin_zero(self):
         income_before_taxes = 0
         revenue = 0
         result = formulas.calculate_ebit_margin(income_before_taxes, revenue)
-        assert result == None
+        assert result is None
 
     def test_calculate_sales_margin(self):
         profit_on_sales = 6989431
@@ -79,13 +79,13 @@ class TestFormulas:
         profit_on_sales = random.randint(0, 10)
         revenue = 0 if profit_on_sales > 0 else random.randint(0, 10)
         result = formulas.calculate_ebit_margin(profit_on_sales, revenue)
-        assert result == None
+        assert result is None
 
     def test_calculate_sales_margin_zero(self):
         profit_on_sales = 0
         revenue = 0
         result = formulas.calculate_ebit_margin(profit_on_sales, revenue)
-        assert result == None
+        assert result is None
 
     def test_calculate_gross_margin(self):
         gross_profit = 22662543
@@ -97,13 +97,13 @@ class TestFormulas:
         gross_profit = random.randint(0, 10)
         revenue = 0 if gross_profit > 0 else random.randint(0, 10)
         result = formulas.calculate_ebit_margin(gross_profit, revenue)
-        assert result == None
+        assert result is None
 
     def test_calculate_gross_margin_zero(self):
         gross_profit = 0
         revenue = 0
         result = formulas.calculate_ebit_margin(gross_profit, revenue)
-        assert result == None
+        assert result is None
 
     def test_calculate_roe(self):
         total_assets = 31314200
@@ -121,7 +121,7 @@ class TestFormulas:
         result = formulas.calculate_roe(
             net_income, total_assets, total_assets_previous_year
         )
-        assert result == None
+        assert result is None
 
     def test_calculate_roe_zero(self):
         total_assets = 0
@@ -130,4 +130,4 @@ class TestFormulas:
         result = formulas.calculate_roe(
             net_income, total_assets, total_assets_previous_year
         )
-        assert result == None
+        assert result is None

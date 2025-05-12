@@ -81,3 +81,4 @@ def calculate_roe(
         if (net_income > 0 and total_assets > 0 and total_assets_previous_year > 0)
         else None
     )
+

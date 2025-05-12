@@ -24,6 +24,7 @@ def get_bfo_id(inn: int) -> int | None:
     else:
         return None
 
+
 def parse_bfo_data(inn: int, data: List[Dict]) -> List[Financials]:
     """
     Parse and calculate financial
@@ -35,85 +36,104 @@ def parse_bfo_data(inn: int, data: List[Dict]) -> List[Financials]:
             Financials(
                 id=uuid4().hex,
                 inn=inn,
-                revenue=int(item.get("corrections", [{}])[0]
-                .get("financialResult", {})
-                .get("current2110", 0) * 1000 or 0),
+                revenue=int(
+                    item.get("corrections", [{}])[0]
+                    .get("financialResult", {})
+                    .get("current2110", 0)
+                    * 1000
+                    or 0
+                ),
                 income=int(
                     item.get("corrections", [{}])[0]
                     .get("financialResult", {})
-                    .get("previous2400", 0) * 1000 or 0
+                    .get("previous2400", 0)
+                    * 1000
+                    or 0
                 ),
                 revenue_growth_yoy=formulas.calculate_revenue_growth_yoy(
                     int(
                         item.get("corrections", [{}])[0]
                         .get("financialResult", {})
-                        .get("current2110", 0) or 0
+                        .get("current2110", 0)
+                        or 0
                     ),
                     int(
                         item.get("corrections", [{}])[0]
                         .get("financialResult", {})
-                        .get("previous2110", 0) or 0
+                        .get("previous2110", 0)
+                        or 0
                     ),
                 ),
                 profit_margin=formulas.calculate_profit_margin(
                     item.get("corrections", [{}])[0]
                     .get("financialResult", {})
-                    .get("current2400", 0) or 0,
+                    .get("current2400", 0)
+                    or 0,
                     item.get("corrections", [{}])[0]
                     .get("financialResult", {})
-                    .get("current2110", 0) or 0,
+                    .get("current2110", 0)
+                    or 0,
                 ),
                 ebit_margin=formulas.calculate_ebit_margin(
                     int(
                         item.get("corrections", [{}])[0]
                         .get("financialResult", {})
-                        .get("current2300", 0) or 0
+                        .get("current2300", 0)
+                        or 0
                     ),
                     int(
                         item.get("corrections", [{}])[0]
                         .get("financialResult", {})
-                        .get("current2110", 0) or 0
+                        .get("current2110", 0)
+                        or 0
                     ),
                 ),
                 sales_margin=formulas.calculate_sales_margin(
                     int(
                         item.get("corrections", [{}])[0]
                         .get("financialResult", {})
-                        .get("current2200", 0) or 0
+                        .get("current2200", 0)
+                        or 0
                     ),
                     int(
                         item.get("corrections", [{}])[0]
                         .get("financialResult", {})
-                        .get("current2110", 0) or 0
+                        .get("current2110", 0)
+                        or 0
                     ),
                 ),
                 gross_margin=formulas.calculate_gross_margin(
                     int(
                         item.get("corrections", [{}])[0]
                         .get("financialResult", {})
-                        .get("current2100", 0) or 0
+                        .get("current2100", 0)
+                        or 0
                     ),
                     int(
                         item.get("corrections", [{}])[0]
                         .get("financialResult", {})
-                        .get("current2110", 0) or 0
+                        .get("current2110", 0)
+                        or 0
                     ),
                 ),
                 roe=formulas.calculate_roe(
                     int(
                         item.get("corrections", [{}])[0]
                         .get("financialResult", {})
-                        .get("current2400", 0) or 0
+                        .get("current2400", 0)
+                        or 0
                     ),
                     int(
                         item.get("corrections", [{}])[0]
                         .get("balance", {})
-                        .get("current1300", 0) or 0
+                        .get("current1300", 0)
+                        or 0
                     ),
                     int(
                         item.get("corrections", [{}])[0]
                         .get("balance", {})
-                        .get("previous1300", 0) or 0
+                        .get("previous1300", 0)
+                        or 0
                     ),
                 ),
                 created_at=str(datetime.now()),
@@ -131,7 +151,7 @@ def get_finance_details(inn: int, bfo_id=None) -> Union[Organization, None]:
         bfo_id = get_bfo_id(inn)
 
     if bfo_id:
-        response = api.get_org_bfo_details(bfo_id)
+        response = api.get_organization_bfo_details(bfo_id)
         org_finance_results = parse_bfo_data(inn, response)
 
         org_id = uuid4().hex
@@ -164,10 +184,16 @@ def load_data_into_db():
         org_data = get_finance_details(int(row["inn"]))
         if org_data:
             org_data.name = row["org_name"]
-            org_data.tags = [db.get_or_create_tag(tag_name) for tag_name in list(set(row["tags"].split(", ")))] if row["tags"] else []
+            org_data.tags = (
+                [
+                    db.get_or_create_tag(tag_name)
+                    for tag_name in list(set(row["tags"].split(", ")))
+                ]
+                if row["tags"]
+                else []
+            )
             org_data.business_type = row["org_type"]
             db.insert(org_data)
-
 
 
 load_data_into_db()
